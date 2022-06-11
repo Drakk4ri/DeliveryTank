@@ -1,0 +1,94 @@
+# =============== #
+# Unity generated #
+# =============== #
+/DeliveryDriver/[Ll]ibrary/
+/DeliveryDriver/[Tt]emp/
+/DeliveryDriver/[Oo]bj/
+/DeliveryDriver/[Bb]uild/
+/DeliveryDriver/[Bb]uilds/
+/DeliveryDriver/[Ll]ogs/
+/DeliveryDriver/Assets/AssetStoreTools*
+/DeliveryDriver/UnityPackageManager
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+/DeliveryDriver/.consulo/
+/DeliveryDriver/.vs/
+/DeliveryDriver/ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+*.tmp
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.vscode
+
+# ====================== #
+# Gradle cache directory #
+# ====================== #
+/DeliveryDriver/.gradle/
+
+# ============================= #
+# Unity3D generated meta files  #
+# ============================= #
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ======================================== #
+# Unity3D generated file on crash reports  #
+# ======================================== #
+sysinfo.txt
+*.stackdump
+
+# ======================================== #
+# Crashlytics generated file               #
+# ======================================== #
+crashlytics-build.properties
+
+# ==================== #
+# Builds               #
+# ==================== #
+*.apk
+*.unitypackage
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# =============== #
+#      Other      #
+# =============== #
+*.blend1
+*.orig
+*.orig.meta
+*.blend1.meta
+
+# =============== #
+#    Whiteboard   #
+# =============== #
+DeliveryDriver.rar
+DeliveryDriver.7z
+
+
+# =============== #
+#       Rider	  #
+# =============== #
+/DeliveryDriver/.idea/
