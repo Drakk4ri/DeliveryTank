@@ -38,6 +38,7 @@ public class Delivery : MonoBehaviour
             Debug.Log("Paczka doręczona!");
             hasPackage = false;
             spriteRenderer.sprite = noPackagebottom;
+            PointSystem.instance.AddPoint();
             //towerSpriteRenderer.color = noPackageColour;
             
         }

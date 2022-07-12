@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 public class Generalle : MonoBehaviour
 {
 
-    //bool hasPackage = false;
     [SerializeField] Sprite hasPackageSprite;
     [SerializeField] Sprite hasNoPackageSprite;  
 
