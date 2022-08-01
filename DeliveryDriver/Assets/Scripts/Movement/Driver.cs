@@ -22,7 +22,7 @@ public class Driver : MonoBehaviour
     {
             if (other.tag == "SpeedUp")
         {
-            Debug.Log("Przyspieszamy!");
+
             moveSpeed = boostSpeed;
         }
            
