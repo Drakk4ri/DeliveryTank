@@ -41,11 +41,22 @@ public class GameManager : MonoBehaviour
         endScreen.gameObject.SetActive(false);
     }
 
+    private void OnEnable()
+    {
+        PointSystem.OnGameWon += EnterEndGameView;
+    }
+
+    private void OnDisable()
+    {
+        PointSystem.OnGameWon -= EnterEndGameView;
+    }
+
     public void EnterEndGameView()
     {
         mainMenuScreen.gameObject.SetActive(false);
         gameScreen.gameObject.SetActive(false);
         endScreen.gameObject.SetActive(true);
+
     }
 
 }

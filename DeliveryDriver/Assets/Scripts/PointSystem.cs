@@ -1,20 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.Events;
-using System;
+
 
 
 public class PointSystem : MonoBehaviour
 {
     public static PointSystem instance;
 
-    public UnityEvent GameWon;
+    public delegate void GameWon();
+    public static event GameWon OnGameWon;
+
 
     private int points = 0;
-    private int pointsToWin = 2;
+    private int pointsToWin = 3;
 
 
     [SerializeField] private TextMeshProUGUI scoreText;
@@ -41,8 +40,12 @@ public class PointSystem : MonoBehaviour
         scoreText.text = "YOU DELIVERED: \n" + points + "/3 AMMO PACKS";
         if (points == pointsToWin)
         {
-            GameWon.Invoke();
-            Debug.Log("dUPA");
+            
+            if (OnGameWon != null)
+            {
+                OnGameWon();
+            }
+         
         }
 
     }
